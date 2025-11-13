@@ -1,0 +1,48 @@
+.privacyPolicyContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .privacyPolicyContainer  section {
+    margin-bottom: 20px;
+  }
+  
+  .privacyPolicyContainer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .privacyPolicyContainer a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .privacyPolicyContainer {
+      padding: 10px;
+    }
+  
+    .heading {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .privacyPolicyContainer section {
+      margin-bottom: 15px;
+    }
+  
+    .privacyPolicyContainer  h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+  }
+  

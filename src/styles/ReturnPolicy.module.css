@@ -1,0 +1,33 @@
+.returnPolicyContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .returnPolicyContainer section {
+    margin-bottom: 20px;
+  }
+  
+  .returnPolicyContainer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo {
+    margin-top: 10px;
+  }
+  
+  .contactInfo a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Add more styles as needed */
+  

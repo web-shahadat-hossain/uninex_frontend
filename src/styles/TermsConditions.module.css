@@ -1,0 +1,47 @@
+.termsContainer {
+   
+    padding: 20px;
+  }
+  
+  .heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .termsContainer section {
+    margin-bottom: 20px;
+  }
+  
+  .termsContainer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contactInfo {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .termsContainer {
+      padding: 10px;
+    }
+  
+    .heading {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  
+    .termsContainer  section {
+      margin-bottom: 15px;
+    }
+  
+    .termsContainer h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+  }
+  

@@ -1,0 +1,230 @@
+.flex{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+.checkout_container {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .checkout_product {
+    width: 50%;
+  }
+  .checkout_product_box,
+  .checkout_summary {
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 40px #dfdfdf;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .checkout_box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(229, 229, 229);
+    padding-bottom: 10px;
+  }
+  .checkout_box h4{
+    font-size: 12px;
+    color: gray;
+    width: 90%;
+}
+  
+  .checkout_box h5{
+    font-size: 12px;
+    color: gray;
+    width: 12%;
+}
+.remove button {
+  border: 2px solid;
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  .checkout_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .checkout_box img {
+    width: 100px;
+  }
+  
+  .checkout_summary ul {
+    padding: 10px;
+  }
+  .checkout_summary ul li {
+    list-style-type: disc;
+    padding: 10px;
+  }
+  
+  .checkout_from {
+    width: 50%;
+  }
+  
+  .checkout_from_box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .checkout_from_box h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(228, 228, 228);
+    padding-bottom: 7px;
+  }
+  .price span {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .price small {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .from_box {
+    margin-top: 30px;
+  }
+  .from_box > div {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .from_box > div label {
+    width: 100%;
+  }
+
+  .from_box > div input {
+   width: 100%;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px 10px;
+  }
+  .from_box textarea {
+    width: 100%;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px 10px;
+    height: 100px;
+  }
+  .from_box button {
+    cursor: pointer;
+  }
+
+  .checkout_from_box table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .checkout_from_box  td {
+    text-align: left;
+    padding: 8px;
+  }
+  .checkout_from_box th {
+    text-align: left;
+    padding: 8px;
+  }
+  .shipping_methods li{
+margin-bottom: 8px;
+  }
+
+  .checkout_from_box tr:nth-child(even){background-color: #f2f2f2}
+  
+  @media screen and (max-width: 1067px) {
+    .from_box > div {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .checkout_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .checkout_from {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .checkout_product {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 650px) {
+   .checkout_message{
+    font-size: 12px;
+   }
+   .remove button {
+    padding: 6px 7px;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 6px;
+  }
+   
+  }
+  @media screen and (max-width: 550px) {
+    .checkout_from {
+      width: 100%;
+      padding: 10px;
+    }
+    .checkout_product {
+      width: 100%;
+      padding: 10px;
+    }
+   
+  }
+  
+
+
+
+
+
+/* 
+
+
+
+ .checkout_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.checkout_container h2{
+  color: #00A654;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.checkout_box {
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 40px #dfdfdf;
+  width: 100%;
+  margin-bottom: 20px;
+  width: 50%;
+} */
